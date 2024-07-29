@@ -3,7 +3,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript ,  SiNestjs  } from "react-icons/si";
 import { RiNextjsFill ,  RiTailwindCssFill , RiTeamFill } from "react-icons/ri";
 import { DiDocker, DiPostgresql, DiScrum } from "react-icons/di";
-import { BiLogoPostgresql, BiPencil } from "react-icons/bi";
+import { BiPencil } from "react-icons/bi";
 
 export default function Skills () {
     let skills = [
