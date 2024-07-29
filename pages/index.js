@@ -1,9 +1,5 @@
 
 
-import AboutMe from "@/componentes/AboutMe";
-import Skills from "@/componentes/Skills";
-import Projects from "@/componentes/Projects";
-import Contactame from "@/componentes/Contactame";
 import Image from "next/image";
 import foto from '../public/foto.JPG';
 import git from '../public/git.png'
@@ -110,7 +106,7 @@ export default function Home() {
     },
   ];
   return (
-    <main className="">
+    <main className="bg-black">
       <main >
             <div className="flex justify-center align-middle">
             <Image  className=" overflow-hidden rounded-full  "
