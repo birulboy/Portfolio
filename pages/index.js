@@ -163,6 +163,9 @@ export default function Home() {
     <div>
       I really like developing my skills and getting better every day.
     </div>
+    <div>
+    I currently have a problem with my GitHub account, probably if you enter any link you will get a not found, I am working to solve this
+    </div>
     </div>
     </div>
     
@@ -214,19 +217,19 @@ export default function Home() {
         <h1 className="m-10 text-title font-fredoka text-6xl">Contactame</h1>
         <div className=" flex flex-col m-8">
           <div className="flex justify-center align-middle gap-4">
-            <FaPhone size={30}></FaPhone>
+            <FaPhone size={30} color="white"></FaPhone>
             <div className="text-text">
               3009025241
             </div>
           </div>
           <div className="flex justify-center align-middle gap-4">
-            <SiGmail size={30}></SiGmail>
+            <SiGmail size={30} color="white"></SiGmail>
             <div className="text-text">
             brahian.castro@utp.edu.co 
             </div>       
           </div>
           <div className="flex justify-center align-middle gap-4">
-            <FaDiscord size={30}></FaDiscord>
+            <FaDiscord size={30} color="white"></FaDiscord>
             <div className="text-text">
             birulboy
             </div>
