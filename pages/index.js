@@ -171,7 +171,7 @@ export default function Home() {
     
         </main>
         <main>
-        <h1 className="font-fredoka text-title text-6xl m-20">Skills</h1>
+        <h1 className="font-fredoka text-title text-5xl m-20">Skills</h1>
         <div className="">
           <div className="grid grid-cols-3 gap-4">
             {skills.map((skill, index) => (
@@ -186,7 +186,7 @@ export default function Home() {
         </div>
       </main>
       <main>
-        <h1 className="text-title font-fredoka text-6xl flex justify-center p-10">Projects</h1>
+        <h1 className="text-title font-fredoka text-5xl flex justify-center p-10">Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
           {projects.map((project, index) => (
             <div key={index} className="text-center bg-title rounded-lg p-4 max-w-xs mx-auto">
@@ -194,8 +194,8 @@ export default function Home() {
                 <Image
                   src={project.img}
                   alt={project.name}
-                  width={200}  // Tamaño reducido
-                  height={150} // Tamaño reducido
+                  width={200}  
+                  height={150} 
                   className="object-cover rounded"
                 />
               </div>
@@ -214,7 +214,7 @@ export default function Home() {
         </div>
       </main>
       <main>
-        <h1 className="m-10 text-title font-fredoka text-6xl">Contactame</h1>
+        <h1 className="m-10 text-title font-fredoka text-5xl">Contactame</h1>
         <div className=" flex flex-col m-8">
           <div className="flex justify-center align-middle gap-4">
             <FaPhone size={30} color="white"></FaPhone>
