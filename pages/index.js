@@ -18,55 +18,54 @@ import { BiPencil } from "react-icons/bi";
 export default function Home() {
   let skills = [
     {
-      name : "Html" ,
-      icon: <FaHtml5 size={50} />,
-    } ,
+      name: "Html",
+      icon: <FaHtml5 size={50} color="white" />,
+    },
     {
-      name: "Css" ,
-      icon: <FaCss3Alt size={50} />
-    } ,
+      name: "Css",
+      icon: <FaCss3Alt size={50} color="white" />,
+    },
     {
-      name: "JavaScript" ,
-      icon: <IoLogoJavascript size={50} />
-    } ,
+      name: "JavaScript",
+      icon: <IoLogoJavascript size={50} color="white" />,
+    },
     {
-      name: "TypeScript" ,
-      icon: <SiTypescript size={50} />
-    } ,
+      name: "TypeScript",
+      icon: <SiTypescript size={50} color="white" />,
+    },
     {
-      name: "Nest" ,
-      icon: <SiNestjs size={50} />
-    } ,
+      name: "Nest",
+      icon: <SiNestjs size={50} color="white" />,
+    },
     {
-      name: "Next" ,
-      icon: <RiNextjsFill size={50} />
-    } ,
+      name: "Next",
+      icon: <RiNextjsFill size={50} color="white" />,
+    },
     {
-      name: "TailWind" ,
-      icon: <RiTailwindCssFill size={50} />
-    } ,
+      name: "TailWind",
+      icon: <RiTailwindCssFill size={50} color="white" />,
+    },
     {
-      name: "Docker" ,
-      icon: <DiDocker size={50} />
-    } ,
+      name: "Docker",
+      icon: <DiDocker size={50} color="white" />,
+    },
     {
-      name: "PostGres" ,
-      icon: <DiPostgresql size={50} />
-    } ,
+      name: "PostGres",
+      icon: <DiPostgresql size={50} color="white" />,
+    },
     {
-        name: "Scrum" ,
-        icon: <DiScrum size={50} />
-    } ,
+      name: "Scrum",
+      icon: <DiScrum size={50} color="white" />,
+    },
     {
-        name: "TeamWork" ,
-        icon: <RiTeamFill size={50} />
-    } ,
+      name: "TeamWork",
+      icon: <RiTeamFill size={50} color="white" />,
+    },
     {
-        name: "Auto Learning" ,
-        icon: <BiPencil size={50} />
-    } ,
-    
-  ] 
+      name: "Auto Learning",
+      icon: <BiPencil size={50} color="white" />,
+    },
+  ];
   let projects = [
     {
       name: "Red Social",
@@ -174,7 +173,7 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-4">
             {skills.map((skill, index) => (
               <div key={index} className="text-center">
-                <div className="flex justify-center mb-2">
+                <div className="flex justify-center mb-2 ">
                   {skill.icon}
                 </div>
                 <p className="text-lg font-medium">{skill.name}</p>
@@ -216,15 +215,21 @@ export default function Home() {
         <div className=" flex flex-col m-8">
           <div className="flex justify-center align-middle gap-4">
             <FaPhone size={30}></FaPhone>
-            3009025241
+            <div className="text-text">
+              3009025241
+            </div>
           </div>
           <div className="flex justify-center align-middle gap-4">
             <SiGmail size={30}></SiGmail>
-            brahian.castro@utp.edu.co        
+            <div className="text-text">
+            brahian.castro@utp.edu.co 
+            </div>       
           </div>
           <div className="flex justify-center align-middle gap-4">
             <FaDiscord size={30}></FaDiscord>
+            <div className="text-text">
             birulboy
+            </div>
           </div>
         </div>
     </main>  
